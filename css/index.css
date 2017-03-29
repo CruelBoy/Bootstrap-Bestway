@@ -1,5 +1,9 @@
-/*nav*/
+/*全局*/
 body{ font-family: Arial,'Microsoft YaHei' }
+li{list-style: none;}
+.clearfix::before{content:"";display: block;clear: both;visibility: hidden;}
+.clearfix{zoom:1;}
+/*nav*/
 .navbar-default .navbar-brand{color: #cda792;font-weight: bold;}
 .navbar-default .navbar-brand:hover{color: #cda792;}
 .navbar-fixed-top{top:45px;}
@@ -10,12 +14,11 @@ body{ font-family: Arial,'Microsoft YaHei' }
 	.navbar-default{background-color: #f8f8f8;border-color: #e7e7e7;}
 }
 
-
-
+/*banner*/
 .banner{background: url(../images/banner_01.jpg) center; height: 450px;}
 
 
-
+/*page1*/
 .page1{text-align: center;padding-top: 60px;}
 .page1 .col-md-10{background: url(../images/page1_03.jpg) no-repeat center 60px;}
 .page1 .col-md-10 a{display: block;width: 205px;height: 45px;line-height: 45px;
@@ -24,6 +27,7 @@ body{ font-family: Arial,'Microsoft YaHei' }
 .line{height: 1px; width: 170px; background: #CCCCCC;margin:0 auto;margin-top: 70px;}
 
 
+/*page2*/
 .page2{text-align: center;padding-top: 60px;}
 .page2 .speech{background: url(../images/page2_06.jpg) no-repeat center 60px;}
 .page2 .col-md-10 a{display: block;width: 205px;height: 45px;line-height: 45px;
@@ -34,10 +38,16 @@ body{ font-family: Arial,'Microsoft YaHei' }
 .page2 .line{height: 1px; width: 170px; background: #CCCCCC;margin:0 auto;margin-top: 20px;}
 
 
+/*page3*/
 .page3{text-align: center;padding-top: 60px;}
 .page3 .col-md-10{background: url(../images/page3_08.jpg) no-repeat center 60px; height: 150px;}
 .page3 .col-md-6 .col-md-12{margin-bottom: 60px;}
-.page3 .left{width: 138px;height: 125px;float: left;background: url(../images/people_11.jpg) no-repeat center;}
+.page3 .left{width: 138px;height: 125px;float: left;}
+.page3 .left_one{background: url(../images/people_11.jpg) no-repeat center;}
+.page3 .left_two{background: url(../images/people_15.jpg) no-repeat center;}
+.page3 .left_three{background: url(../images/people_17.jpg) no-repeat center;}
+.page3 .left_four{background: url(../images/people_20.jpg) no-repeat center;}
+.page3 .left_five{background: url(../images/people_22.jpg) no-repeat center;}
 .page3 .right{width: 370px;height: 126px; border: 1px solid #eaeaea; border-radius: 17px;float: right;
 	text-align: left;padding-left: 10px;padding-right: 10px;}
 .page3 .right  dt{height: 50px;line-height: 50px;}
@@ -46,6 +56,7 @@ body{ font-family: Arial,'Microsoft YaHei' }
 .page3 .right  dd p{line-height: 18px; color: #797979;}
 .page3_right{padding-top: 100px;}
 .page3_bg{background: url(../images/page3bg_12.jpg) no-repeat center 0;}
+.page3 .line{margin-top: 50px;}
 @media screen and (max-width: 1440px) {
 	.page3 .left{float: none;margin: 0 auto;}
 	.page3 .right{float: none;margin: 0 auto;}
@@ -53,3 +64,61 @@ body{ font-family: Arial,'Microsoft YaHei' }
 	.none_box{display: none;}
 	
 }
+
+/*page4*/
+.page4{text-align: center;padding-top: 40px;}
+.page4 .col-md-10{background: url(../images/page4_11.jpg) no-repeat center 60px; height: 150px; }
+.page4 .col-md-12 ul {display: inline-block; text-align: center;}
+.page4 .col-md-12 ul li img{max-width: 100%;}
+.page4 .hide{display: none;}
+.page4 .btn{width: 52px;height: 52px;border: 1px solid #CCCCCC;margin: 0 14px;}
+.page4 .btn_left{background: url(../images/left_15.jpg) no-repeat center;}
+.page4 .btn_right{background: url(../images/right_15.jpg) no-repeat center;}
+.page4 .item-list {padding-top: 30px;display: inline-block;margin-top: 30px;padding:0;}
+.page4 .item-list li{float: left;width: 6px;height: 6px;background: #1c1c1a;margin: 0 8px;}
+.page4 .item-list li:hover{background: #be9b71;border: 2px solid #be9b71;}
+
+
+
+/*page5*/
+.page5{text-align: center;padding-top: 40px;}
+.page5 .col-md-10{background: url(../images/page5_19.jpg) no-repeat center 60px; height: 150px; }
+.page5 .col-md-4 img{max-width: 100%;padding: 14px;border: 1px solid #cccccc;}
+.page5 .col-md-4{color:#c69b70;text-align: left; }
+.page5 .col-md-4 span{font-size: 12px;color: #5f5f5f;}
+.page5 .col-md-4 p{line-height: 22px;padding-top: 25px;padding-bottom: 10px;}
+.page5 .hr{display: block;width: 70px;height: 1px;background: #c69b70;margin-bottom: 10px;}
+.page5 .btn{width: 52px;height: 52px;border: 1px solid #CCCCCC;margin: 20px 14px;}
+.page5 .btn_left{background: url(../images/left_15.jpg) no-repeat center;}
+.page5 .btn_right{background: url(../images/right_15.jpg) no-repeat center;}
+.page5  .more{display: block;width: 205px;height: 45px;line-height: 45px;clear: both;
+	color:#caa58b;text-align: center;background-color: #333333;margin:0 auto;}
+.page5 	.col-md-2{padding-bottom: 20px;padding-top: 10px;}
+
+/*page6*/
+.page6{text-align: center;padding-top: 40px;}
+.page6 .col-md-10{background: url(../images/page6_19.jpg) no-repeat center 60px; height: 150px; }
+.page6 .icon{width: 138px;height: 138px;margin: 0 auto;}
+.page6 .col-md-4 h3{font-size: 25px;color: #cb9d6c;}
+.page6 .col-md-4 i{display: inline-block;width: 59px;height: 1px;background:#cb9d6c;margin-bottom: 15px; }
+.page6 .icon1{background: url(../images/icon1_19.jpg) no-repeat center;}
+.page6 .icon2{background: url(../images/icon1_21.jpg) no-repeat center;}
+.page6 .icon3{background: url(../images/icon1_23.jpg) no-repeat center;}
+ .col-md-4 p{line-height: 20px;}
+
+
+.foot{background: #333333;height: 235px;margin-top: 50px;padding-top: 60px;padding-bottom: 50px;}
+.foot .foot_logo{width: 201px;height: 59px;background: url(../images/foot_logo_29.jpg) no-repeat 0 0; padding-bottom: 100px;}
+.foot ul{overflow: hidden;margin-bottom: 10px;padding: 0;}
+.foot ul li{margin-right: 8px;float: left;width: 24px;height: 24px;}
+.foot .foot_link{clear: both;}
+.foot .foot_link a{display: block;float: left;padding: 0 10px; color: #655f53;}
+.foot .li1{background: url(../images/ft_icon_29.jpg) no-repeat center;}
+.foot .li2{background: url(../images/ft_icon_31.jpg) no-repeat center;}
+.foot .li3{background: url(../images/ft_icon_33.jpg) no-repeat center;}
+.foot .li4{background: url(../images/ft_icon_35.jpg) no-repeat center;}
+.foot .col-md-3{border-right:1px dashed #FFF;}
+.foot .col-md-9 dl{float: left;padding: 0 60px;}
+.foot .col-md-9 dl dt {color:#d2ad81;padding-bottom: 18px; }
+.foot .col-md-9 dl dd{height: 24px;line-height: 24px;}
+.foot .col-md-9 dl dd a{color: #807466;}
