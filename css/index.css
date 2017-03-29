@@ -1,0 +1,55 @@
+/*nav*/
+body{ font-family: Arial,'Microsoft YaHei' }
+.navbar-default .navbar-brand{color: #cda792;font-weight: bold;}
+.navbar-default .navbar-brand:hover{color: #cda792;}
+.navbar-fixed-top{top:45px;}
+.navbar-default{background-color: transparent;border-color: transparent;}
+.navbar-default .navbar-nav>li>a{color: #cda792;}
+.navbar-default .navbar-nav>li>a:hover{color: #cda792;}
+@media screen and (max-width: 768px) {
+	.navbar-default{background-color: #f8f8f8;border-color: #e7e7e7;}
+}
+
+
+
+.banner{background: url(../images/banner_01.jpg) center; height: 450px;}
+
+
+
+.page1{text-align: center;padding-top: 60px;}
+.page1 .col-md-10{background: url(../images/page1_03.jpg) no-repeat center 60px;}
+.page1 .col-md-10 a{display: block;width: 205px;height: 45px;line-height: 45px;
+	color:#caa58b;text-align: center;background-color: #333333;margin:0 auto;}
+.page1 .col-md-10 p{line-height: 25px;padding-top: 60px;padding-bottom: 30px;}
+.line{height: 1px; width: 170px; background: #CCCCCC;margin:0 auto;margin-top: 70px;}
+
+
+.page2{text-align: center;padding-top: 60px;}
+.page2 .speech{background: url(../images/page2_06.jpg) no-repeat center 60px;}
+.page2 .col-md-10 a{display: block;width: 205px;height: 45px;line-height: 45px;
+	color:#caa58b;text-align: center;background-color: #333333;margin:0 auto;}
+.page2 .col-md-10 p{line-height: 25px;padding-top: 60px;padding-bottom: 30px;}
+.page2 .row .col-md-3{margin-bottom: 10px;}
+.page2 .row .col-md-3 img{max-width:100%;}
+.page2 .line{height: 1px; width: 170px; background: #CCCCCC;margin:0 auto;margin-top: 20px;}
+
+
+.page3{text-align: center;padding-top: 60px;}
+.page3 .col-md-10{background: url(../images/page3_08.jpg) no-repeat center 60px; height: 150px;}
+.page3 .col-md-6 .col-md-12{margin-bottom: 60px;}
+.page3 .left{width: 138px;height: 125px;float: left;background: url(../images/people_11.jpg) no-repeat center;}
+.page3 .right{width: 370px;height: 126px; border: 1px solid #eaeaea; border-radius: 17px;float: right;
+	text-align: left;padding-left: 10px;padding-right: 10px;}
+.page3 .right  dt{height: 50px;line-height: 50px;}
+.page3 .right  dt span{color: #c59c6e;}
+.page3 .right  dt i{color: #535353;margin: 0 3px;}
+.page3 .right  dd p{line-height: 18px; color: #797979;}
+.page3_right{padding-top: 100px;}
+.page3_bg{background: url(../images/page3bg_12.jpg) no-repeat center 0;}
+@media screen and (max-width: 1440px) {
+	.page3 .left{float: none;margin: 0 auto;}
+	.page3 .right{float: none;margin: 0 auto;}
+	.page3 .right  dt{text-align: center;}
+	.none_box{display: none;}
+	
+}
