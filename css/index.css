@@ -125,13 +125,13 @@ li{list-style: none;}
 	.page3 .right{float: none;margin: 0 auto;}
 	.page3 .right  dt{text-align: center;}
 	.none_box{display: none;}
+	.page5 .btn,.page4 .btn{display: none;}
 	
 }
 
 
 
 @media screen and (max-width: 1024px){
-	.page5 .btn,.page4 .btn{display: none;}
 	.foot .foot_link{display: none;}
 	.page3_bg{background: none;}
 	.page5 .col-md-4{text-align: center;margin-bottom: 15px;}
