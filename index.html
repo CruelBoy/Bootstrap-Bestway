@@ -301,7 +301,7 @@
 					<a href="#">联系我们</a>
 				</div>
 			</div>
-			<div class="col-md-9">
+			<div class="col-md-9 clearfix">
 				<dl>
 					<dt>走进柏荟</dt>
 					<dd><a href="">品牌魅力</a></dd>
@@ -339,6 +339,18 @@
 
 <script src="js/2.1.jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(window).scroll(function(){
+		var scrH=$(window).scrollTop();
+		if(scrH>95){
+			$(".navbar").css("display","none")
+		}else{
+			$(".navbar").css("display","block")
+		}			
+	})
+})	
+</script>
 
 </body>
 </html>
